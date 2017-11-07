@@ -1,3 +1,7 @@
+# Fork notes
+Original [fast_xml](https://github.com/processone/fast_xml) library depends on their [p1_utils](https://github.com/processone/p1_utils) library. In this repo i removed all dependences to that.
+
+
 # Erlang and Elixir XML Parsing
 
 [![Build Status](https://travis-ci.org/processone/fast_xml.svg?branch=master)](https://travis-ci.org/processone/fast_xml) [![Coverage Status](https://coveralls.io/repos/processone/fast_xml/badge.svg?branch=master&service=github)](https://coveralls.io/github/processone/fast_xml?branch=master) [![Hex version](https://img.shields.io/hexpm/v/fast_xml.svg "Hex version")](https://hex.pm/packages/fast_xml)
