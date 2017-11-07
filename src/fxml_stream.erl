@@ -54,7 +54,7 @@
 -export_type([xml_stream_state/0, xml_stream_el/0]).
 
 load_nif() ->
-    SOPath = p1_nif_utils:get_so_path(?MODULE, [fast_xml], "fxml_stream"),
+    SOPath = fxml_utils:get_so_path(?MODULE, "fxml_stream"),
     load_nif(SOPath).
 
 load_nif(SOPath) ->

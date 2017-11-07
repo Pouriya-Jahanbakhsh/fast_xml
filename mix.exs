@@ -28,9 +28,7 @@ defmodule FastXML.Mixfile do
   end
 
   def application do
-    [ mod: {:fast_xml, []},
-      applications: [:p1_utils]
-    ]
+    [ mod: {:fast_xml, []}]
   end
 
   defp package do
@@ -43,8 +41,7 @@ defmodule FastXML.Mixfile do
   end
 
   def deps do
-    [{:p1_utils, "~> 1.0"},
-     {:elixir_make, "~> 0.4", runtime: false},
+    [{:elixir_make, "~> 0.4", runtime: false},
      {:earmark, "~> 0.1", only: :dev},
      {:ex_doc, "~> 0.11", only: :dev},
      {:eqc_ex, "~> 1.2", only: :test}]
